@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section contact" ref={ref}>
       <div className="container">
-        <SectionLabel index="04" label="Contact" />
+        <SectionLabel index="05" label="Contact" />
 
         <h2 className="contact__title" data-reveal>
           Let's build

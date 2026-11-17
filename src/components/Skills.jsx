@@ -15,7 +15,7 @@ export default function Skills() {
   return (
     <section id="skills" className="section skills" ref={ref}>
       <div className="container">
-        <SectionLabel index="02" label="Skills & tools" />
+        <SectionLabel index="03" label="Skills & tools" />
         <h2 className="section__title" data-reveal>
           Things I <span className="accent">work with</span>
         </h2>

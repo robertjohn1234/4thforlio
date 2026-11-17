@@ -108,7 +108,7 @@ export default function Projects() {
     <section id="projects" className="section projects" ref={sectionRef}>
       <div className="container projects__head">
         <div>
-          <SectionLabel index="03" label="Selected work" />
+          <SectionLabel index="04" label="Selected work" />
           <h2 className="section__title" data-reveal>
             Featured <span className="accent">projects</span>
           </h2>
