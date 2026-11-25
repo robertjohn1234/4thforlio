@@ -152,10 +152,10 @@ export const projects = [
     description:
       'A live dashboard that tracks cable installation status across a construction project, with charts and progress summaries.',
     tags: ['Node.js', 'Charts', 'Render'],
-    image: '',
+    image: '/projects/cable-status.png',
     color: '#7b5cff',
-    live: '',
-    code: '',
+    live: 'https://project-dashboard-demo-vvyy.onrender.com',
+    code: 'https://github.com/robertjohn1234/Project_Dashboard_Demo',
   },
   {
     title: 'Punch List Dashboard',
