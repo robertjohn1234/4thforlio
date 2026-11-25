@@ -107,7 +107,20 @@ function CollectionCard({ project, index, onOpen }) {
         </span>
         <span className="folder__stack" aria-hidden="true">
           {preview.map((s, i) => (
-            <span className="mini-site" key={s.name} style={{ '--c': s.color, '--n': i }}>
+                        <span
+              className="mini-site"
+              key={s.name}
+              style={{
+                '--c': s.color,
+                '--n': i,
+                // Use the site's screenshot on the tile when there is one
+                ...(s.image && {
+                  backgroundImage: `linear-gradient(rgba(0,0,0,0) 35%, rgba(10,10,15,0.85)), url(${s.image})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'top center',
+                }),
+              }}
+            >
               <span className="mini-site__bar">
                 <i />
                 <i />
