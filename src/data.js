@@ -168,6 +168,36 @@ export const projects = [
     code: '',
   },
   {
+    // A "folder" project: add more small sites to `sites` and they show up automatically
+    title: 'Small Business Sites',
+    description:
+      'Fast, mobile-first websites for local shops. Customers browse the menu and send their order straight to the owner on Messenger.',
+    tags: ['React', 'Vite', 'Messenger ordering'],
+    color: '#ff8fb1',
+    sites: [
+      {
+        name: 'Orbit Scoops',
+        kind: 'Ice cream shop',
+        description:
+          'Pastel "space" ice cream shop with a cart, order form, bulk-order discounts and a consignment offer for resellers.',
+        color: '#ff5c8a',
+        image: '', // e.g. '/projects/orbit-scoops.png'
+        live: '', // ← paste your Render link here, e.g. 'https://your-site.onrender.com'
+        code: '', // ← GitHub repo link
+      },
+      {
+        name: 'Cake Shop',
+        kind: 'Cakes & pastries',
+        description: 'Custom cake orders with size, flavor, message on the cake and pickup date — sent via Messenger.',
+        color: '#e8a04a',
+        image: '',
+        live: '',
+        code: '',
+        status: 'In progress',
+      },
+    ],
+  },
+  {
     title: 'Online Shop',
     description:
       'A personal e-commerce website built from scratch — product pages, cart and checkout. Currently in progress.',

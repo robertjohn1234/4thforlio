@@ -35,3 +35,6 @@ export function scrollToTarget(selector) {
   if (lenis) lenis.scrollTo(el, { offset: selector === '#home' ? 0 : -40 });
   else el.scrollIntoView({ behavior: 'smooth' });
 }
+
+// Access the Lenis instance (e.g. to pause smooth scroll while a popup is open)
+export const getLenis = () => lenis;
