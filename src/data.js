@@ -158,16 +158,6 @@ export const projects = [
     code: 'https://github.com/robertjohn1234/Project_Dashboard_Demo',
   },
   {
-    title: 'Punch List Dashboard',
-    description:
-      'Turns a consolidated Excel punch list into a clean web dashboard so open items are easy to filter and follow up.',
-    tags: ['Node.js', 'Excel data', 'Render'],
-    image: '',
-    color: '#ff4d8d',
-    live: '',
-    code: '',
-  },
-  {
     // A "folder" project: add more small sites to `sites` and they show up automatically
     title: 'Small Business Sites',
     description:
@@ -181,9 +171,9 @@ export const projects = [
         description:
           'Pastel "space" ice cream shop with a cart, order form, bulk-order discounts and a consignment offer for resellers.',
         color: '#ff5c8a',
-        image: '', // e.g. '/projects/orbit-scoops.png'
-        live: '', // ← paste your Render link here, e.g. 'https://your-site.onrender.com'
-        code: '', // ← GitHub repo link
+        image: 'projects/orbit-scoops.png', // e.g. '/projects/orbit-scoops.png'
+        live: 'https://ice-cream-shop-site-demo.onrender.com', // ← paste your Render link here, e.g. 'https://your-site.onrender.com'
+        code: 'https://github.com/robertjohn1234/Ice_Cream_Shop_Site_Demo', // ← GitHub repo link
       },
       {
         name: 'Cake Shop',
@@ -197,6 +187,16 @@ export const projects = [
       },
     ],
   },
+   {
+    title: 'This Portfolio',
+    description:
+      'The site you are on — built with React, GSAP ScrollTrigger and Lenis smooth scrolling.',
+    tags: ['React', 'GSAP', 'Lenis'],
+    image: '',
+    color: '#c6a03d',
+    live: 'https://fourthforlio.onrender.com',
+    code: 'https://github.com/robertjohn1234/4thforlio',
+  },
   {
     title: 'Online Shop',
     description:
@@ -206,16 +206,6 @@ export const projects = [
     color: '#00b3a4',
     live: '',
     code: '',
-  },
-  {
-    title: 'This Portfolio',
-    description:
-      'The site you are on — built with React, GSAP ScrollTrigger and Lenis smooth scrolling.',
-    tags: ['React', 'GSAP', 'Lenis'],
-    image: '',
-    color: '#c6a03d',
-    live: 'https://fourthforlio.onrender.com',
-    code: 'https://github.com/robertjohn1234/4thforlio',
   },
 ];
 
