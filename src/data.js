@@ -197,6 +197,16 @@ export const projects = [
     live: 'https://singking-loan-demo-app.onrender.com', // ← paste your Render demo link here
     code: 'https://github.com/robertjohn1234/Singking_Loan_Demo_App', // ← GitHub repo link (leave '' if the repo is private)
   },
+  {
+    title: 'Solar Installer Site + Calculator',
+    description:
+      'Website for a solar installer with an instant savings calculator: enter your bill, get system size, price, payback and a 25-year chart, then send the estimate on Messenger.',
+    tags: ['React', 'Calculator', 'Messenger inquiry'],
+    image: '/projects/liwanag-solar.png',
+    color: '#ff6b1a',
+    live: 'https://solar-web-site-demo.onrender.com', // ← your Render link
+    code: 'https://github.com/robertjohn1234/Solar_Web_Site_Demo', // ← GitHub repo link
+  },
    {
     title: 'This Portfolio',
     description:
