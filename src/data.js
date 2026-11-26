@@ -12,6 +12,7 @@ export const profile = {
     'BSEE graduate with 8 years in construction, plant operations and maintenance. I track project progress on site — and build the dashboards that make reporting faster.',
   email: 'robertjohnlucero1234@gmail.com',
   socials: [
+    {label: 'Facebook', url: 'https://facebook.com/robertjohn.lucero.5'},
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/robert-john-lucero/' },
     { label: 'GitHub', url: 'https://github.com/robertjohn1234' },
     // Add more, e.g. { label: 'Facebook', url: 'https://facebook.com/your-profile' },
