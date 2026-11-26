@@ -187,6 +187,16 @@ export const projects = [
       },
     ],
   },
+  {
+    title: 'Sinking Fund & Loans App',
+    description:
+      'Offline app for paluwagan / sinking fund groups: members, contributions or one-time slots, loans with 4 interest methods, penalties and automatic year-end share-out. Live demo uses sample data.',
+    tags: ['React', 'PWA', 'Offline', 'Demo'],
+    image: '/projects/sinking-fund.png',
+    color: '#0d5e51',
+    live: 'https://singking-loan-demo-app.onrender.com', // ← paste your Render demo link here
+    code: 'https://github.com/robertjohn1234/Singking_Loan_Demo_App', // ← GitHub repo link (leave '' if the repo is private)
+  },
    {
     title: 'This Portfolio',
     description:
